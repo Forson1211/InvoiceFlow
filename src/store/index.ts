@@ -106,7 +106,7 @@ export const useUIStore = create<UIStore>()(
         })),
       setTheme: (theme) => set({ theme }),
     }),
-    { name: "invoiceflow-ui" }
+    { name: "invoiceglow-ui" }
   )
 );
 

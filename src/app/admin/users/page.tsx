@@ -11,7 +11,7 @@ export default function UserManagement() {
   const [search, setSearch] = useState("");
 
   const users = [
-    { id: 1, name: "Admin User", email: "admin@invoiceflow.app", role: "ADMIN", status: "ACTIVE", joined: "2023-01-01" },
+    { id: 1, name: "Admin User", email: "admin@invoiceglow.app", role: "ADMIN", status: "ACTIVE", joined: "2023-01-01" },
     { id: 2, name: "John Doe", email: "john@example.com", role: "USER", status: "ACTIVE", joined: "2023-10-12" },
     { id: 3, name: "Kojo Mensah", email: "kojo@techghana.com", role: "USER", status: "PENDING", joined: "2023-10-15" },
     { id: 4, name: "Sarah Smith", email: "sarah@design.co", role: "USER", status: "SUSPENDED", joined: "2023-09-20" },

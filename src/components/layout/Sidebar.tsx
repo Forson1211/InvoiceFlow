@@ -78,7 +78,7 @@ export default function Sidebar({ isAdmin = false }: { isAdmin?: boolean }) {
           <div className="brand-logo">
             <Zap size={16} />
           </div>
-          <span className="brand-name nav-label">InvoiceFlow</span>
+          <span className="brand-name nav-label">InvoiceGlow</span>
           
           {/* Mobile Close Button */}
           <button 

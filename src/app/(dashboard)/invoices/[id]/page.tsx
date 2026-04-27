@@ -144,7 +144,7 @@ export default function InvoiceDetailPage() {
           }}>
             <div>
               <div style={{ fontSize: "1.4rem", fontWeight: 900, background: "linear-gradient(135deg, #fff, #94a3b8)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-                InvoiceFlow
+                InvoiceGlow
               </div>
               <div style={{ color: "var(--text-muted)", fontSize: "0.85rem", marginTop: "4px" }}>
                 Professional Invoicing

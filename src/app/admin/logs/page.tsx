@@ -12,7 +12,7 @@ export default function AuditLogs() {
   const logs = [
     { id: 1, event: "User Login", user: "john@example.com", ip: "192.168.1.1", time: "2023-10-25 14:20:12", type: "INFO" },
     { id: 2, event: "Invoice Created", user: "sarah@design.co", ip: "10.0.0.42", time: "2023-10-25 14:15:05", type: "SUCCESS" },
-    { id: 3, event: "Settings Updated", user: "admin@invoiceflow.app", ip: "85.214.12.9", time: "2023-10-25 13:45:30", type: "WARNING" },
+    { id: 3, event: "Settings Updated", user: "admin@invoiceglow.app", ip: "85.214.12.9", time: "2023-10-25 13:45:30", type: "WARNING" },
     { id: 4, event: "Failed Login Attempt", user: "unknown", ip: "45.12.33.201", time: "2023-10-25 13:10:44", type: "DANGER" },
     { id: 5, event: "Database Backup", user: "System", ip: "localhost", time: "2023-10-25 12:00:00", type: "SUCCESS" },
     { id: 6, event: "API Key Generated", user: "alex@photo.pro", ip: "172.16.0.5", time: "2023-10-25 11:30:15", type: "INFO" },

@@ -10,12 +10,12 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "InvoiceFlow — Professional Invoicing for Freelancers",
+  title: "InvoiceGlow — Professional Invoicing for Freelancers",
   description:
-    "Create, send and get paid faster with InvoiceFlow. Mobile money payments, PDF invoices, and client management built for Ghana and emerging markets.",
+    "Create, send and get paid faster with InvoiceGlow. Mobile money payments, PDF invoices, and client management built for Ghana and emerging markets.",
   keywords: "invoice, invoicing, mobile money, Ghana, MTN MoMo, freelancer, small business",
   openGraph: {
-    title: "InvoiceFlow",
+    title: "InvoiceGlow",
     description: "Professional invoicing with mobile money payments",
     type: "website",
   },

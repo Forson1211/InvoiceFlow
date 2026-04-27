@@ -45,7 +45,7 @@ export async function sendInvoiceEmail(opts: {
     <!DOCTYPE html><html><head>${baseStyles}</head><body>
     <div class="container">
       <div class="header">
-        <h1>InvoiceFlow</h1>
+        <h1>InvoiceGlow</h1>
         <p>Professional Invoicing</p>
       </div>
       <div class="body">
@@ -71,8 +71,8 @@ export async function sendInvoiceEmail(opts: {
         </div>
       </div>
       <div class="footer">
-        <p>This invoice was sent via InvoiceFlow · <a href="https://invoiceflow.app">invoiceflow.app</a></p>
-        <p style="margin-top:4px;">© ${new Date().getFullYear()} InvoiceFlow. All rights reserved.</p>
+        <p>This invoice was sent via InvoiceGlow · <a href="https://invoiceglow.app">invoiceglow.app</a></p>
+        <p style="margin-top:4px;">© ${new Date().getFullYear()} InvoiceGlow. All rights reserved.</p>
       </div>
     </div>
     </body></html>
@@ -98,7 +98,7 @@ export async function sendPaymentConfirmationEmail(opts: {
     <!DOCTYPE html><html><head>${baseStyles}</head><body>
     <div class="container">
       <div class="header">
-        <h1>InvoiceFlow</h1>
+        <h1>InvoiceGlow</h1>
         <p>Payment Confirmed 🎉</p>
       </div>
       <div class="body">
@@ -120,7 +120,7 @@ export async function sendPaymentConfirmationEmail(opts: {
         </div>
       </div>
       <div class="footer">
-        <p>Powered by InvoiceFlow · <a href="https://invoiceflow.app">invoiceflow.app</a></p>
+        <p>Powered by InvoiceGlow · <a href="https://invoiceglow.app">invoiceglow.app</a></p>
       </div>
     </div>
     </body></html>

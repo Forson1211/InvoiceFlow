@@ -36,7 +36,7 @@ export async function POST(req: NextRequest, { params }: { params: Promise<{ id:
         currency: invoice.currency,
         dueDate: invoice.dueDate,
         viewUrl,
-        fromName: user?.businessName || user?.name || "InvoiceFlow User",
+        fromName: user?.businessName || user?.name || "InvoiceGlow User",
       });
     } catch (emailErr) {
       console.error("Email sending failed:", emailErr);

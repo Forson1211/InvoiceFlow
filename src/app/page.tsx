@@ -77,14 +77,14 @@ export default function LandingPage() {
   }, [mouseX, mouseY]);
 
   const faqs = [
-    { q: "Is InvoiceFlow free to use?", a: "Yes! We offer a generous free tier for freelancers just starting out. You can create up to 5 invoices per month for free." },
+    { q: "Is InvoiceGlow free to use?", a: "Yes! We offer a generous free tier for freelancers just starting out. You can create up to 5 invoices per month for free." },
     { q: "Can I use my own branding?", a: "Absolutely. Our Pro and Enterprise plans allow you to add your logo, brand colors, and custom email signatures." },
     { q: "Do you support international payments?", a: "Yes, we integrate with Stripe and PayPal, allowing you to accept payments from over 135 currencies." },
     { q: "Is my data secure?", a: "We use bank-grade encryption and daily backups to ensure your financial data is always safe and accessible." },
   ];
 
   const testimonials = [
-    { name: "Jane Doe", role: "Freelance Brand Designer", text: "InvoiceFlow has completely changed how I run my design business. I save hours every week on admin work.", initials: "JD" },
+    { name: "Jane Doe", role: "Freelance Brand Designer", text: "InvoiceGlow has completely changed how I run my design business. I save hours every week on admin work.", initials: "JD" },
     { name: "Kojo Mensah", role: "Software Architect", text: "The MTN MoMo integration is a game-changer for my local clients in Ghana. Fast and reliable.", initials: "KM" },
     { name: "Sarah Smith", role: "Content Creator", text: "Beautiful templates that actually match my brand. My clients are always impressed by the invoices.", initials: "SS" },
     { name: "Alex Chen", role: "Photography Pro", text: "The dashboard gives me such a clear view of my monthly revenue. Best invoicing tool I've used.", initials: "AC" },
@@ -155,7 +155,7 @@ export default function LandingPage() {
             <div className="brand-logo" style={{ width: "28px", height: "28px" }}>
               <Zap size={16} />
             </div>
-            <span>InvoiceFlow</span>
+            <span>InvoiceGlow</span>
           </div>
           {!isMobileView && (
             <div style={{ display: "flex", gap: "32px", alignItems: "center" }}>
@@ -239,7 +239,7 @@ export default function LandingPage() {
           onMouseEnter={() => setIsHero(true)}
           onMouseLeave={() => setIsHero(false)}
           style={{ 
-            paddingTop: "clamp(80px, 10vh, 120px)", 
+            paddingTop: "clamp(160px, 18vh, 200px)", 
             paddingBottom: "clamp(40px, 8vh, 80px)", 
             textAlign: "center", 
             position: "relative", 
@@ -283,7 +283,7 @@ export default function LandingPage() {
             <p style={{ 
               fontSize: "clamp(1rem, 2.5vw, 1.2rem)", color: "rgba(255, 255, 255, 0.9)", marginBottom: "24px", lineHeight: 1.4, maxWidth: "650px", margin: "0 auto 24px"
             }}>
-              InvoiceFlow makes it easy to create, manage, and track professional invoices. Spend less time on paperwork and more time doing what you love.
+              InvoiceGlow makes it easy to create, manage, and track professional invoices. Spend less time on paperwork and more time doing what you love.
             </p>
             
             <motion.div 
@@ -311,7 +311,7 @@ export default function LandingPage() {
                   background: "#1e293b", color: "#ffffff", border: "none",
                   fontWeight: 700, display: "flex", alignItems: "center", justifyContent: "center", width: "100%"
                 }}>
-                  Explore InvoiceFlow 2.0
+                  Explore InvoiceGlow 2.0
                 </Link>
               </motion.div>
             </motion.div>
@@ -354,10 +354,10 @@ export default function LandingPage() {
                     <div style={{ width: 10, height: 10, borderRadius: "50%", background: "#27c93f" }} />
                   </div>
                   <div style={{ flex: 1, margin: "0 40px", height: "24px", background: "rgba(0,0,0,0.1)", borderRadius: "6px", display: "flex", alignItems: "center", padding: "0 12px", fontSize: "10px", color: "var(--text-muted)" }}>
-                    app.invoiceflow.com/dashboard
+                    app.invoiceglow.com/dashboard
                   </div>
                 </div>
-                <img src="/dashboard-mockup.png" alt="InvoiceFlow Dashboard Preview" style={{ width: "100%", height: "auto", display: "block" }} />
+                <img src="/dashboard-mockup.png" alt="InvoiceGlow Dashboard Preview" style={{ width: "100%", height: "auto", display: "block" }} />
               </div>
             </div>
           </motion.div>
@@ -575,7 +575,7 @@ export default function LandingPage() {
               Start designing your success.
             </h2>
             <p style={{ position: "relative", zIndex: 1, fontSize: "1.3rem", color: "rgba(255,255,255,0.9)", marginBottom: "56px", maxWidth: "600px", margin: "0 auto 56px", lineHeight: 1.6 }}>
-              Join over 50,000+ designers and freelancers who are getting paid faster with InvoiceFlow. No credit card required.
+              Join over 50,000+ designers and freelancers who are getting paid faster with InvoiceGlow. No credit card required.
             </p>
             <div style={{ position: "relative", zIndex: 1, display: "flex", gap: "20px", justifyContent: "center", flexWrap: "wrap" }}>
               <Link href="/auth/register" style={{ 
@@ -616,11 +616,11 @@ export default function LandingPage() {
                     <Zap size={24} />
                   </div>
                   <span style={{ color: "var(--text-primary)" }}>
-                    InvoiceFlow
+                    InvoiceGlow
                   </span>
                 </div>
                 <p style={{ color: "var(--text-secondary)", lineHeight: 1.8, marginBottom: "32px", fontSize: "1rem" }}>
-                  InvoiceFlow is the world's most versatile invoicing platform for freelancers and small businesses. We help you look professional and get paid faster.
+                  InvoiceGlow is the world's most versatile invoicing platform for freelancers and small businesses. We help you look professional and get paid faster.
                 </p>
                 <div style={{ display: "flex", gap: "16px" }}>
                   <div style={{ width: "40px", height: "40px", borderRadius: "12px", background: "var(--bg-elevated)", border: "1px solid var(--border)", display: "flex", alignItems: "center", justifyContent: "center", color: "var(--text-secondary)", cursor: "pointer", transition: "all 0.2s" }} onMouseEnter={(e) => { e.currentTarget.style.color = "var(--accent)"; e.currentTarget.style.borderColor = "var(--accent)"; }} onMouseLeave={(e) => { e.currentTarget.style.color = "var(--text-secondary)"; e.currentTarget.style.borderColor = "var(--border)"; }}>X</div>
@@ -707,7 +707,7 @@ export default function LandingPage() {
               <Link href="#" style={{ color: "var(--text-muted)", textDecoration: "none", fontSize: "0.85rem" }}>Cookie Settings</Link>
             </div>
             <p style={{ color: "var(--text-muted)", fontSize: "0.85rem", order: 1 }} className="md:order-2">
-              &copy; {new Date().getFullYear()} InvoiceFlow Inc. All rights reserved.
+              &copy; {new Date().getFullYear()} InvoiceGlow Inc. All rights reserved.
             </p>
 
             <div style={{ position: "relative", order: 3 }}>

@@ -24,7 +24,7 @@ export default function AdminSettings() {
                 <div className="grid-2">
                   <div className="form-group">
                     <label className="form-label">Software Name</label>
-                    <input type="text" className="form-input" defaultValue="InvoiceFlow" />
+                    <input type="text" className="form-input" defaultValue="InvoiceGlow" />
                   </div>
                   <div className="form-group">
                     <label className="form-label">Primary Color</label>
